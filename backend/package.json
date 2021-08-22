@@ -1,0 +1,22 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Desafio",
+  "main": "index.js",
+  "author": "Anderson",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec node --inspect=0.0.0.0:9229 ./src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "graphql": "^15.5.1",
+    "graphql-tools": "^8.1.0",
+    "knex": "^0.95.10",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
