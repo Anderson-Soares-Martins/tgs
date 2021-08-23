@@ -1,4 +1,4 @@
-const { onUpdateTrigger } = require('./triggers/index.js')
+const { onUpdateTrigger } = require('./triggers')
 
 exports.up = (knex) => (
   knex.schema.createTable('users', (table) => {
